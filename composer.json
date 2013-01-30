@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-0": {
-            "CA\\Config": "src/"
+            "CA_Config": "src/"
          }
     },
     "config": {

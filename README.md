@@ -45,8 +45,7 @@ options from a global variable and returns a single instance.
 This has not been tested on a broad range of configurations, and the
 underlying problem is that CA configurations are not well-standardized in
 different PHP environments.  To determine if this produces a valid
-configuration in your environment, run the included script
-"ca-config-local-test.php"
+configuration in your environment, run the phpunit test suite.
 
 If you encounter problems, feel free to submit a patch or to report the
 problem.
