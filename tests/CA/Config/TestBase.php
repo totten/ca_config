@@ -5,7 +5,7 @@
  */
 abstract class CA_Config_TestBase extends PHPUnit_Framework_TestCase {
     const VALID_SSL_URL = 'https://drupal.org/INSTALL.mysql.txt';
-    const INVALID_SSL_URL = 'https://self-signed.onebitwise.com:4443/';
+    const INVALID_SSL_URL = 'https://www-test.civicrm.org:4433/index.html';
 
     /**
      * Generate a CA configuration
