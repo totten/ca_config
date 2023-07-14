@@ -4,8 +4,8 @@
  * Test the probe() produces a properly functioning SSL configuration
  */
 abstract class CA_Config_TestBase extends PHPUnit\Framework\TestCase {
-    const VALID_SSL_URL = 'https://drupal.org/INSTALL.mysql.txt';
-    const INVALID_SSL_URL = 'https://www-test.civicrm.org:4433/index.html';
+    const VALID_SSL_URL = 'https://www.drupal.org/INSTALL.mysql.txt';
+    const INVALID_SSL_URL = 'https://untrusted-root.badssl.com/';
 
     /**
      * Generate a CA configuration
